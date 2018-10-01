@@ -1,0 +1,54 @@
+html, body{
+  font-family:"Comfortaa",cursive;
+  text-align:center;
+  color:#333;
+  background-color: #D2D3D4;
+}
+#main{
+  margin:30px auto;
+  padding:15px;
+  border:0px solid;
+  border-radius:5px;
+  background:#C6CFD5;
+}
+#image{
+  max-width:100%;
+  height:auto;
+  margin:auto;
+  display:block;
+  background: #C6CFD5;
+}
+#img-div{
+  margin:-5px;
+  margin-top:20px;
+  width:100%;
+
+}
+#img-caption{
+  margin:15px;
+}
+
+#tribute-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-between;
+}
+#personal-info  ul{
+  list-style: none;
+  line-height: 2.5rem;
+  padding:0px;
+}
+
+#stats ul {
+  list-style:none;
+  line-height: 2.5rem;
+  padding: 0;
+}
+
+@media (max-width: 500px;) {
+  #image{
+    height: 100%;
+    width: 100%;
+  }
+}
